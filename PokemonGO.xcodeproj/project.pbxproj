@@ -14,10 +14,14 @@
 		6F2CECDD23D25E0700B595A6 /* PokemonGO.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6F2CECDB23D25E0700B595A6 /* PokemonGO.xcdatamodeld */; };
 		6F2CECDF23D25E0800B595A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F2CECDE23D25E0800B595A6 /* Assets.xcassets */; };
 		6F2CECE223D25E0800B595A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F2CECE023D25E0800B595A6 /* LaunchScreen.storyboard */; };
+		6F2CECEB23D25F5300B595A6 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F2CECEA23D25F5300B595A6 /* MapKit.framework */; };
+		6FF8003523D3C23F00DC0D28 /* CoreDataPokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FF8003423D3C23F00DC0D28 /* CoreDataPokemon.swift */; };
+		6FF9130F23D4DB38008A421B /* PokemonAnotacao.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FF9130E23D4DB38008A421B /* PokemonAnotacao.swift */; };
+		6FF9131123D4F2EA008A421B /* PokeAgendaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FF9131023D4F2EA008A421B /* PokeAgendaViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		6F2CECCF23D25E0600B595A6 /* PokemonGO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PokemonGO.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F2CECCF23D25E0600B595A6 /* Pokemon GO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pokemon GO.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F2CECD223D25E0700B595A6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6F2CECD423D25E0700B595A6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		6F2CECD623D25E0700B595A6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -26,6 +30,10 @@
 		6F2CECDE23D25E0800B595A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6F2CECE123D25E0800B595A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6F2CECE323D25E0800B595A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F2CECEA23D25F5300B595A6 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		6FF8003423D3C23F00DC0D28 /* CoreDataPokemon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataPokemon.swift; sourceTree = "<group>"; };
+		6FF9130E23D4DB38008A421B /* PokemonAnotacao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonAnotacao.swift; sourceTree = "<group>"; };
+		6FF9131023D4F2EA008A421B /* PokeAgendaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokeAgendaViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F2CECEB23D25F5300B595A6 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,13 +53,14 @@
 			children = (
 				6F2CECD123D25E0600B595A6 /* PokemonGO */,
 				6F2CECD023D25E0600B595A6 /* Products */,
+				6F2CECE923D25F5300B595A6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		6F2CECD023D25E0600B595A6 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6F2CECCF23D25E0600B595A6 /* PokemonGO.app */,
+				6F2CECCF23D25E0600B595A6 /* Pokemon GO.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -61,6 +71,9 @@
 				6F2CECD223D25E0700B595A6 /* AppDelegate.swift */,
 				6F2CECD423D25E0700B595A6 /* SceneDelegate.swift */,
 				6F2CECD623D25E0700B595A6 /* ViewController.swift */,
+				6FF8003423D3C23F00DC0D28 /* CoreDataPokemon.swift */,
+				6FF9130E23D4DB38008A421B /* PokemonAnotacao.swift */,
+				6FF9131023D4F2EA008A421B /* PokeAgendaViewController.swift */,
 				6F2CECD823D25E0700B595A6 /* Main.storyboard */,
 				6F2CECDE23D25E0800B595A6 /* Assets.xcassets */,
 				6F2CECE023D25E0800B595A6 /* LaunchScreen.storyboard */,
@@ -68,6 +81,14 @@
 				6F2CECDB23D25E0700B595A6 /* PokemonGO.xcdatamodeld */,
 			);
 			path = PokemonGO;
+			sourceTree = "<group>";
+		};
+		6F2CECE923D25F5300B595A6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6F2CECEA23D25F5300B595A6 /* MapKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -87,7 +108,7 @@
 			);
 			name = PokemonGO;
 			productName = PokemonGO;
-			productReference = 6F2CECCF23D25E0600B595A6 /* PokemonGO.app */;
+			productReference = 6F2CECCF23D25E0600B595A6 /* Pokemon GO.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -143,8 +164,11 @@
 			files = (
 				6F2CECD723D25E0700B595A6 /* ViewController.swift in Sources */,
 				6F2CECDD23D25E0700B595A6 /* PokemonGO.xcdatamodeld in Sources */,
+				6FF9131123D4F2EA008A421B /* PokeAgendaViewController.swift in Sources */,
 				6F2CECD323D25E0700B595A6 /* AppDelegate.swift in Sources */,
+				6FF9130F23D4DB38008A421B /* PokemonAnotacao.swift in Sources */,
 				6F2CECD523D25E0700B595A6 /* SceneDelegate.swift in Sources */,
+				6FF8003523D3C23F00DC0D28 /* CoreDataPokemon.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,7 +319,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "Guilherme-Magnabosco.PokemonGO";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Pokemon GO";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -312,7 +336,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "Guilherme-Magnabosco.PokemonGO";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Pokemon GO";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
