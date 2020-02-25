@@ -1,3 +1,2 @@
-Pods/
-.storyboard
-.plist
+PokemonGo/Base.lproj/*.storyboard
+PokemonGo/*.plist
